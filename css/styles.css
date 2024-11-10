@@ -94,10 +94,10 @@ a {
 .contacts-link {
     display: block;
     padding: 24px 0 ;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -105,34 +105,21 @@ a {
 
     /* section 1 */
     .solutions {
-        padding-bottom: 120px;
-    }
-    .solution-container {
-     background-color: #2e2f42;
-     padding: 188px 472px 292px 472px;
-    display: flex;
-        align-items: center;
-        flex-direction: column;
-     
-        
-
+    background-color: #2e2f42;
+    padding: 188px 0;
     }
     
+    
     .title-solutions {
-            width: 496px;
+           max-width: 496px;
             font-size: 56px;
             line-height: 1.07;
             letter-spacing: 0.02em;
             text-align: center;
             color: #fff;
-            margin-bottom: 48px;
-           
-            
-           
-          
-            
-            
-               
+            margin-bottom: 48px; 
+            margin-left: auto;
+            margin-right: auto;
             
     }
     .button-solutions {
@@ -148,26 +135,46 @@ a {
         background-color: #4d5ae5;
         border: none;
         cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
        
-        
-        
-        
-            
-       
-        
+
     }
         
      .button-solutions:hover,
      .button-solutions:focus {
-        background-color: #404bbf;;
+        background-color: #404bbf;
         }
+
+
+
+        /* section advantages */
+    
+    
+    
+    
+        .section-advantages {
+        padding: 120px 0;
+    }
+     .advantages-list {
+            display: flex;
+            gap: 24px;
+     }
+
     .advantages-header {
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;
-    }
+            margin-bottom: 8px;
+            }
+    
+    .advantages-item {
+        width: calc((100%-72)/4);
+    } 
     .advantages-text {
             font-weight: 400;
             font-size: 16px;
@@ -176,9 +183,19 @@ a {
             color: #434455;
     }
    
-   .section-team {
-        background-color: #f4f4fd;
-   }
+                           /* Team */ 
+
+
+
+    .section-team {
+       padding: 120 0;
+       background-color: #f4f4fd;
+ }
+    .list-team {
+        display: flex;
+        gap: 24px;
+    }                       
+   
     .header-team {
         text-transform: capitalize;
             font-weight: 700;
@@ -187,9 +204,20 @@ a {
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 72px;
+            padding-top: 120px;
+        
     }
   .item-team {
         background-color: #fff;
+        gap: 24px;
+        width: calc((100%-72)/4);
+        border-radius: 0 0 4px 4px;
+       
+       
+
   }
   .title-team {
         font-weight: 500;
@@ -198,6 +226,7 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px
   }
   .text-team {
         font-weight: 400;
@@ -206,7 +235,16 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+
   }
+  .text-styles {
+    padding: 32px 0;
+  }
+
+  .section-portfolio {
+    padding: 120 0;
+  }
+
   .header-portfolio {
         text-transform: capitalize;
         font-weight: 700;
@@ -247,4 +285,8 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+  }
+  .list-team {
+   
+
   }
